@@ -1,0 +1,198 @@
+body {
+    background-color: cornsilk;
+    font-family: "MV Boli";
+}
+
+#body {
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(30, 30, 30, 0.2);
+    height: 60px;
+    align-items: center;
+    /* margin: 20px 0; */
+}
+
+nav {
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+nav button {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+
+nav button:active {
+    translate: 0 -5px;
+}
+
+#logo {
+    width: 100%;
+}
+
+#ingrediants {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#dough-pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dough-pic img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+#ingrediants-text {
+    font-size: 1.5rem;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#customers {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#customers-pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#customers-pic img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+#customers-text {
+    font-size: 1.5rem;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    text-align: end;
+    margin-right: 15px;
+}
+
+footer {
+    text-align: center;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(30, 30, 30, 0.2);
+}
+
+#menu-text {
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#sides,
+#pizzas,
+#sweets,
+#drinks {
+    padding: 30px;
+}
+
+#sides-text {
+    font-size: 3rem;
+    text-align: center;
+    margin: 24px 0 0;
+}
+
+.side-item {
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+    height: 35px;
+}
+
+#pizza-text {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+
+#pizza-sizes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pizza-item {
+    display: flex;
+    box-sizing: border-box;
+    height: 35px;
+}
+
+.pizza-name {
+    margin-right: 10px;
+}
+
+#sweets-text {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+
+.sweet-item {
+    display: flex;
+    box-sizing: border-box;
+    height: 35px;
+    gap: 10px;
+}
+
+#drinks-text {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+
+.drink-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+.drink {
+    height: 30px;
+    line-height: normal;
+    margin: 0;
+}
+
+.lorem {
+    padding: 30px;
+}
