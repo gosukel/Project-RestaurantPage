@@ -11,7 +11,7 @@ export default function makeHomePage() {
     let heroDiv = document.createElement("div");
     heroDiv.setAttribute("id", "hero");
     let logoImg = document.createElement("img");
-    logoImg.setAttribute("src", "../src/logo.png");
+    logoImg.setAttribute("src", "./logo.png");
     logoImg.setAttribute("id", "logo");
     heroDiv.appendChild(logoImg);
     contentDiv.appendChild(heroDiv);
